@@ -1,0 +1,205 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    }
+
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    
+}    
+#fakeheader{
+    height: 10vh;
+    width: 100%;
+    }
+
+#page1{
+    height: 90vh;
+    width: 100%;
+    background-color:rgb(214, 221, 223);
+    }
+#strip{
+    height: 12%;
+    width: 100%;
+    background-color: rgb(8, 6, 65);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;    
+}
+#strip u:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+#box1{
+    height:100%;
+    width: 50%;
+    background-color: white;
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+#box1 p{
+    margin: 20px;
+    font-size: large;
+    font-weight: normal;
+}
+
+#box1 h1{
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+#btn1{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    background-color: rgb(181, 181, 245);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#btn1:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#btn2{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#box2{
+    height:100%;
+    width: 50%;
+    background-color: white;
+  
+}
+
+
+
+#box2 video{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+#heading{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    color : green;
+}    
+
+#page2{
+    height: 90vh;   
+    width: 100%;
+    background-color: lightgreen;
+    }    
+
+.text{
+    color: blue;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}    
+.text:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+#logo{
+    height: 70%;
+    margin: 20px;
+    
+    margin-top: 10px;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#contactdetails {
+    margin-top: 10px;
+    margin-left: 40px; 
+    font-weight: lighter;
+}
+.icon{
+    padding : 4px;
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 50px;
+    color: black;
+}
+
+.icon:hover{
+    background-color: lightgray;
+    border-radius: 50%;}
+
+#login{
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 50px;
+    color: black;
+}
+#login:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 4px;
+}
+#try{
+    margin: 18px;
+    font-size: 18px;
+    background-color: rgb(181, 181, 245);
+}
+#try:hover{
+    background-color: blue;
+    color: white;
+    padding: 4px;
+}
